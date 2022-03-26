@@ -355,7 +355,7 @@ class FullscreenSliderDemo extends StatelessWidget {
               height: height,
               viewportFraction: 1.0,
               enlargeCenterPage: false,
-              // autoPlay: false,
+               autoPlay: true,
             ),
             items: imgList
                 .map((item) => Container(
